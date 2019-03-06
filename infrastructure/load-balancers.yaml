@@ -30,7 +30,6 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref EnvironmentName
-
   LoadBalancerListener:
     Type: AWS::ElasticLoadBalancingV2::Listener
     Properties:
